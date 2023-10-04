@@ -1,0 +1,74 @@
+.cabecera{
+  text-align: center;
+  padding-top: 25px;
+}
+
+.cabecera h1{
+  width: 100%;
+}
+
+.barra {
+  position: fixed;
+  top: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav li a {
+  padding: 20px 15px;
+}
+
+.barra .nav li a{
+  background-color: rgba(41, 41, 41, 0.6);
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Horarios - Cursos */
+.horarios-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+.horarios-table th, .horarios-table td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+.horarios-table th {
+  background-color: black;
+  color: white;
+}
+
+.horarios-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.horarios-table tr:hover {
+  background-color: #ddd;
+}
+
+.recreo {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+body > h2:nth-child(3) {
+  text-align: center;
+  background-color: black;
+  color: #fff;
+  }
+
+.nombres{
+text-align: center;
+background-color: lightblue;
+color: black;
+margin-top: 60px;
+}
+
+.Contraturnos{
+text-align: center;
+background-color: black;
+color: #fff;
+}
